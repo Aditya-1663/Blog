@@ -1,0 +1,50 @@
+.body{
+    
+}
+
+.outerbox{
+    /* border: red solid 2px; */
+    /* height: 93vh; */
+    min-height: 93vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+
+}
+.innerbox{
+    width:80%;
+    /* border: red solid 1px; */
+    border-radius: 10px;
+    /* height: 93vh; */
+    box-shadow: 10px 10px  10px rgba(0, 0, 0, 0.479);
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+.content{
+    font-style: italic ;
+    font-size:18px;
+    font-weight:550;
+    text-align:justify;
+    margin: 20px
+    
+}
+.postbox{
+    /* border:2px rgb(91, 235, 25) solid; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 20px;}
+.postimg{
+    background-size: cover;
+    height: 70vh;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+.hr{
+    color: rgb(62, 60, 60);
+    margin: 5px;
+    width: 70%;
+}
